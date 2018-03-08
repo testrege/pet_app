@@ -12,3 +12,4 @@ fs.readdirSync(models_path).forEach((file) => {
         require(models_path + "/" + file);
     }
 })
+// just added this 
