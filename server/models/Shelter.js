@@ -86,6 +86,10 @@ var ShelterSchema = new mongoose.Schema({
             message: "Password confirmation does not match password"
         }
     },
+    approval: {
+        type: Boolean,
+        default: false
+    }
 }, { timestamps: true });
 
 //Hashes new password
