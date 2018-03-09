@@ -106,4 +106,4 @@ ShelterSchema.methods.authenticate = function(form_pw, password){
     return bcrypt.compareSync(form_pw, password);
 }
 
-let User = mongoose.model("Shelter", ShelterSchema);
+let Shelter = mongoose.model("Shelter", ShelterSchema);
